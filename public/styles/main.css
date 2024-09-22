@@ -7,21 +7,10 @@
 .background{
   height: 100vh;
   width: 100%;
-  background: linear-gradient(45deg, #FFF8E8, #F7EED3,  #A1D6B2 );
-  /* background-size: 300% 300%; */
-  animation: color 12s ease-in-out infinite;
-}
-
-@keyframes color{
-  0%{
-    background-position: 0 50%;
-  }
-  50%{
-    background-position: 100% 50%;
-  }
-  100%{
-    background-position: 0 50%;
-  }
+  background-image: url(/images/mainBg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+background-position: center;
 }
 
 .main{
@@ -32,12 +21,7 @@
   height: 100vh;
   font-size: 2em;
 }
-.temperature{
-  text-align: center;
-}
-.sen-temperature {
-  font-family: "Sen", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
+
+.nav-link{
+  font-weight: 600;
 }
