@@ -12,16 +12,29 @@
   background-size: cover;
 background-position: center;
 }
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .main{
   display: flex;
   width: 100%;
   justify-content: center;
-  align-items: center;
   height: 100vh;
   font-size: 2em;
+  padding-top: 4em;
 }
 
 .nav-link{
   font-weight: 600;
+}
+
+.jokeText{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  font-size: 22px;
+  text-align: center;
 }
